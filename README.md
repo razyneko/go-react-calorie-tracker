@@ -48,11 +48,7 @@ cd go-react-calorie-tracker
    ```bash
    go mod tidy
    ```
-3. Create a `.env` file for environment variables:
-   ```
-   MONGO_URI=your_mongodb_connection_string
-   ```
-4. Run the server:
+3. Run the server:
    ```bash
    go run main.go
    ```
@@ -79,23 +75,12 @@ cd go-react-calorie-tracker
 ## API Endpoints
 
 ### Meals
-- `GET /api/meals`: Retrieve all meals
-- `POST /api/meals`: Add a new meal
-- `PUT /api/meals/:id`: Update an existing meal
-- `DELETE /api/meals/:id`: Delete a meal
+- `GET /entries`: Retrieve all entries
+- `POST /entry/create`: Add a new entry
+- `PUT /entry/update/:id`: Update an existing entry
+- `DELETE /entry/delete/:id`: Delete a meal
 
-## Screenshots
-
-Add screenshots of your application to showcase its features.
 
 ## Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-Happy tracking! 🎉
