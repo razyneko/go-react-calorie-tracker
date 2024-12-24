@@ -4,21 +4,19 @@ A full-stack calorie tracker application built using Go for the backend and Reac
 
 ## Features
 
-- CRUD operations for tracking meals and calories
-- Interactive user interface for adding, editing, and deleting meal entries
-- Responsive design for mobile and desktop usage
+- CRUD operations for tracking calories
+- Interactive user interface for adding, editing, and deleting entries
 - Backend REST API with robust data validation
 
 ## Tech Stack
 
 ### Backend:
-- **Go**: Handles the RESTful API and business logic
+- **Go**: Handles the RESTful API
 - **Gin Gonic**: Lightweight and fast web framework for Go
-- **MongoDB**: NoSQL database for storing user and meal data
+- **MongoDB**: NoSQL database for storing entries
 
 ### Frontend:
 - **React**: Builds the user interface
-- **React Router**: Enables navigation between pages
 - **Axios**: Handles HTTP requests to the backend
 
 ## Getting Started
@@ -78,6 +76,7 @@ cd go-react-calorie-tracker
 - `GET /entries`: Retrieve all entries
 - `POST /entry/create`: Add a new entry
 - `PUT /entry/update/:id`: Update an existing entry
+- `PUT /ingredient/update/:id`: Update ingredients of an entry
 - `DELETE /entry/delete/:id`: Delete a meal
 
 
