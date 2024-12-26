@@ -13,15 +13,15 @@ A **React-based** web application that helps users track their daily calorie int
 ## Technologies Used
 
 - **Frontend**: React, Axios, React-Bootstrap
-- **Backend**: Go (with Gin Gonic) - API Server (optional, if using a full-stack version)
-- **Database**: MongoDB (optional, if using a full-stack version)
+- **Backend**: Go (with Gin Gonic)
+- **Database**: MongoDB 
 
 ## Installation
 
 ### Prerequisites
 
 - **Node.js**: Ensure Node.js is installed. If not, install it from [the official website](https://nodejs.org/).
-- **MongoDB** (if using the full-stack version): Install MongoDB and run it locally, or use a cloud instance such as MongoDB Atlas.
+- **MongoDB**: Install MongoDB and run it locally, or use a cloud instance such as MongoDB Atlas.
 
 ### Steps to Set Up
 
